@@ -28,6 +28,23 @@ color: white;
 cursor: pointer;
 }
 
+.section-heading{
+    max-width:827px;
+    text-align: center;
+}
+
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom:30px
+}
+
+.section-heading p{ 
+    font-size"18px;
+    margin-bottom:30px;
+    line-hight: 30px;
+    color:#757575;  
+}
+
 /* main style */
 header{
     background-color:#f3dac9;
@@ -57,7 +74,7 @@ nav .menu a{
     text-decoration: none;
 }
 #banner{
-     /* border: 1px solid red;  */
+  
     margin:47px 38px 0 230px;
    display: flex;
     justify-content: space-between;
@@ -87,7 +104,38 @@ nav .menu a{
     line-height: 30px;
     margin-bottom: 30px;
 }
- #banne .banner-image img{
+ #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+ }
+
+ #about{
+    padding-top: 130px;
+ }
+ #about .about-container
+ {
+   
+    width:60%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+       background-color: #fff8f3;
+       padding: 131px 156px;
+ }
+
+ #about .about-container .about-info
+ {
+    display:flex;
+    justify-content: space-around;
+ }
+
+ .about-info  .info-card p{
+     font-size:20px;
+   
+    line-hight: 30px;
+    color:#757575; 
+ }
+
+ .about-info  .info-card h4{
+    font-size: 20px;
  }
